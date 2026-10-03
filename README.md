@@ -21,6 +21,10 @@ Implémentation et benchmark de **8 algorithmes de tri** pour vérifier expérim
 
 Le tri par dénombrement a également été implémenté.
 
+![Comparaison des algorithmes sur tableaux aléatoires](graphique_aleatoire.png)
+
+![Tri fusion vs tri rapide](graphique_fusion_rapide.png)
+
 ## Démarche
 
 1. **Génération des données :** tableaux croissants, décroissants, constants et 500 tableaux aléatoires, pour des tailles de 1 000, 5 000 et 10 000 éléments. Les données sont générées une seule fois puis stockées dans des fichiers texte, pour que tous les algorithmes soient testés sur les mêmes tableaux.
@@ -36,6 +40,7 @@ Le tri par dénombrement a également été implémenté.
 ## Contenu du dépôt
 
 - Code source en C des algorithmes de tri
+- Graphiques de performance générés avec GNUPlot
 
 **Environnement :** MacBook Pro (ARM64), macOS, Apple clang 15, standard C99, GNUPlot 6.0.
 
