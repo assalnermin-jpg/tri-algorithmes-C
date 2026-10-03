@@ -35,7 +35,7 @@ Le tri par dénombrement a également été implémenté.
 
 ## Contenu du dépôt
 
-- Code source en C des algorithmes et du programme de mesure
+- Code source en C des algorithmes de tri
 
 **Environnement :** MacBook Pro (ARM64), macOS, Apple clang 15, standard C99, GNUPlot 6.0.
 
